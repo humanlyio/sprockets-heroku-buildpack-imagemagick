@@ -14,7 +14,7 @@ In your project root:
 "index 1" means that imagemagick will be installed first.
 
 ### Changing version
-Go to https://www.imagemagick.org/download/releases and find a version you want (*.tar.gz). Edit the `bin/compile` file and change out the version number. Clear cache, as shown below, and redeploy your app to Heroku.
+Find the version you want in the [ImageMagick tags](https://github.com/ImageMagick/ImageMagick/tags). Set `IMAGE_MAGICK_VERSION` or edit the default version in `bin/compile`. Clear the cache, as shown below, and redeploy your app to Heroku.
 
 ### Clear cache
 Since the installation is cached you might want to clean it out due to config changes.
